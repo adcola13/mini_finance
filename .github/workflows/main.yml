@@ -2,7 +2,7 @@ name: Deploy via SSH & rsync
 
 on:
   push:
-    branches: [add-footer]
+    branches: [main]
 
 jobs:
   build-and-deploy:
