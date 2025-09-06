@@ -341,7 +341,7 @@ Bootstrap 5 Dashboard Admin Template
                                     - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
                                 </div>
                                 <div class="col-lg-12 col-12">
-                                    <p class="footer-text">Mini Finance v1.0 — Deployed on 05 Sep 2025 — By Adrina Colaco</p>
+                                    <p id="footerdateinfo"></p>
                                 </div>
                             </div>
                         </div>
@@ -355,6 +355,17 @@ Bootstrap 5 Dashboard Admin Template
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/custom.js"></script>
+	<script>
+                 // Get the current date
+                 const today = new Date();
+
+                 // Format the date (e.g., "MM ddd YYYY")
+                 const options = { year: 'numeric', month: 'short', day: 'numeric' };
+                 const formattedDate = today.toLocaleDateString('en-UK', options);
+
+                 // Display the formatted date in the paragraph with id "footerdateinfo"
+                 document.getElementById('footerdateinfo').innerHTML = "Mini Finance v1.0 — Deployed on " + formattedDate + " - By Adrina Colaco";
+        </script>
 
     </body>
 </html>
