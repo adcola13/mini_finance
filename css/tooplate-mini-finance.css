@@ -955,14 +955,24 @@ strong {
 .site-footer {
   padding: 20px;                /* keep even padding */
   font-size: 14px;              /* readable minimum size */
-  line-height: 1.5;             /* add breathing space between lines */
+  line-height: 1;             /* add breathing space between lines */
   color: #333333;               /* dark text for readability */
   background-color: #f9f9f9;    /* light background with high contrast */
 }
-
-/*.copyright-text {
-  font-size: var(--copyright-font-size);
-}*/
+.footerdateinfo {
+  padding: 20px;                /* keep even padding */
+  font-size: 14px;              /* readable minimum size */
+  line-height: 1;             /* add breathing space between lines */
+  color: #333333;               /* dark text for readability */
+  background-color: #f9f9f9;    /* light background with high contrast */
+}
+.copyright-text {
+  padding: 20px;                /* keep even padding */
+  font-size: 14px;              /* readable minimum size */
+  line-height: 1;             /* add breathing space between lines */
+  color: #333333;               /* dark text for readability */
+  background-color: #f9f9f9;
+}
 
 
 /*---------------------------------------
