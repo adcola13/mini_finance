@@ -953,13 +953,16 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  padding-right: 20px;
-  padding-left: 20px;
+  padding: 20px;                /* keep even padding */
+  font-size: 14px;              /* readable minimum size */
+  line-height: 1.5;             /* add breathing space between lines */
+  color: #333333;               /* dark text for readability */
+  background-color: #f9f9f9;    /* light background with high contrast */
 }
 
-.copyright-text {
+/*.copyright-text {
   font-size: var(--copyright-font-size);
-}
+}*/
 
 
 /*---------------------------------------
